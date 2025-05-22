@@ -1,4 +1,4 @@
-
+|Reciply
 
 Contents
 
@@ -15,11 +15,13 @@ Credits
 
 1. Project Introduction
 
-Project Title
-Live Site URL
-Repository URL
-Project Purpose and Goals
-Target Audience(s)
+    |Reciply
+
+    Live Site URL
+    Repository URL
+
+The site is for home cooks of all skill levels who want to create delicious, approachable meals for their families and friends. This includes busy parents looking for quick weeknight solutions, cooking enthusiasts eager to try new recipes and techniques, and beginners who need clear, step-by-step guidance. The audience values practical cooking tips, a space to ask for advice and guidance, and recipes that bring people together around the dinner table.
+
 Value Proposition for Users
 
 2. UX Design
@@ -49,10 +51,30 @@ Model-View-Controller Implementation
 
 5. Technologies Used
 
-Languages (Python, HTML, CSS, etc.)
-Frameworks and Libraries
-Database Technology
-Development Tools
+Languages Used:
+
+    HTML5
+    CSS3
+    JavaScript
+    Python
+
+Frameworks and Libraries:
+
+    Django
+    Django Allauth
+    Django Crispy Forms
+    Bootstrap
+    Cloudinary
+    Gunicorn
+    Psycopg2
+    Summernote
+    dj_database_url
+
+Software and Web Applications used: 
+
+    Heroku
+    Heroku PostgreSQL
+
 External APIs (if applicable)
 
 6. Testing
@@ -85,6 +107,8 @@ Input Validation
 
 10. Credits
 
-https://unsplash.com/@brookelark
+    Code Institute: Walkthrough modules in Full Stack Frameworks.
+
+    Unsplash https://unsplash.com/@brookelark
 
 
