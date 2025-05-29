@@ -28,7 +28,18 @@ Value Proposition for Users
 
 User Stories
 Information Architecture
-Wireframes/Mockups
+Wireframes
+    Wireframes were created in Balsamiq.
+
+<details>
+    <summary>Landing Page</summary>
+    <br>
+    <img src="readme_media/landing_page_wireframe.jpg" alt="">
+    </details>
+
+
+
+
 Design Decisions and Reasoning
 Accessibility Considerations
 Responsive Design Features
@@ -38,12 +49,17 @@ Responsive Design Features
     Homepage
     Navigation Bar
     Fixed Footer
-    Create a blog post
-    Create, edit and delete comments on blog posts
+    Individual blog post page
+    Register page
+    Login page
+    Django Admin page
 
-Core Functionality Overview
+CRUD Functionality 
+
+    Registered users to the site have the ability to create, view, edit and delete comments on Posts. 
+
 User Authentication and Authorization
-CRUD Operations
+
 User Interaction Features
 Navigation Structure
 
@@ -54,12 +70,19 @@ Future Feature Roadmap
 
 4. Data Model
 
-Database Schema Diagram
+Entity Relationship Diagram 
+
+<details>
+    <summary>Database Schema Diagram</summary>
+    <br>
+    <img src="readme_media/erd_diagram.jpg" alt="">
+    </details>
 
     The diagram illustrates the following relationships: 
     - One Author/ User can have many posts. One - Many
     - One Post can have many comments. One - Many
-Entity Relationships
+
+
 Data Structure Explanation
 Model-View-Controller Implementation
 
@@ -92,22 +115,23 @@ Software and Web Applications used:
     HTML Validator
     W3 CSS Validator
     JSHint
-
-External APIs (if applicable)
+    PEP8 Online
+    Lighthouse
+    Balsamiq 
 
 6. Testing
 
 Testing Methodology
 Manual Testing Procedures
 
-    <details>
-    <summary>How do I dropdown?</summary>
-    <br>
-    This is how you dropdown.
-    </details>
 
+    | Testing registration and login |
     | Test Description | Outcome | Status |
     |---  | --- | --- |
+    |Registration Required Fields | | |
+    |Successful Registration | | |
+    |Password Confirmation | | |
+    |Sucessful Login| | |
     | | | |
 Automated Tests (if applicable)
 
