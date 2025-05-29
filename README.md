@@ -35,16 +35,30 @@ Responsive Design Features
 
 3. Features
 
+    Homepage
+    Navigation Bar
+    Fixed Footer
+    Create a blog post
+    Create, edit and delete comments on blog posts
+
 Core Functionality Overview
 User Authentication and Authorization
 CRUD Operations
 User Interaction Features
 Navigation Structure
+
 Future Feature Roadmap
+
+    Profile Pages for Users
+    Enable users to search blog posts through the navbar
 
 4. Data Model
 
 Database Schema Diagram
+
+    The diagram illustrates the following relationships: 
+    - One Author/ User can have many posts. One - Many
+    - One Post can have many comments. One - Many
 Entity Relationships
 Data Structure Explanation
 Model-View-Controller Implementation
@@ -75,23 +89,68 @@ Software and Web Applications used:
     Heroku
     Heroku PostgreSQL
 
+    HTML Validator
+    W3 CSS Validator
+    JSHint
+
 External APIs (if applicable)
 
 6. Testing
 
 Testing Methodology
 Manual Testing Procedures
+
+    <details>
+    <summary>How do I dropdown?</summary>
+    <br>
+    This is how you dropdown.
+    </details>
+
+    | Test Description | Outcome | Status |
+    |---  | --- | --- |
+    | | | |
 Automated Tests (if applicable)
+
+    | Test Description | Outcome | Status |
+    |---  | --- | --- |
+    | | | |
+
 User Testing Results
 Known Bugs and Fixes
 Outstanding Issues
 
 7. Deployment
 
-Prerequisites
+    The prerequisites
+
+Database Setup
+    - Navigate to PostgreSQL from Code Institute
+    - Enter in your student email address and click submit
+    - Wait whilst your database is created
+    - Your database is sucessfully created, you will receive an email with the database link
+
+Heroku Deployment
+
+    - Log into Heroku and create a new app with a unique name. This will be added to the allowed hosts in the project settings.
+    - Following on, within the setting tab of your app:
+    - Locate the 'Reveal Config Vars', in which we shall be adding a new Config Var called DISABLE_COLLECTSTATIC, assign it the value of 1 and then save it via clicking add. This will be removed when relasing for production.
+    - Add a new Config Var called SECRET_KEY and assign it a value - any random string of letters, digits and symbols. (You can use an online generator for this) Click add to save.
+    - Add a new Config Var called DATABASE_URL and paste in the value of your Code institute PostgreSQL database,click Add to save.
+
+    - The settings.py should be updated to use the DATABASE_URL and SECRET_KEY environment variable values
+
+    -  
+
+Connect your Github Repo to the Heroku App
+
+    - Navigate to your deploy tab within your Heroku App
+    - Select Github as the deployment method, and if prompted confirm that you want to connect to Github. Enter and search for the name of your chosen repository and click on Connect to link them. 
+    - Return to the deploy tab of the app each time you push changes to Github. Scroll to the bottom and Manually deploy the app by clicking on 'Deploy Branch'. 
+
+
 Local Development Setup
 Environment Variables
-Database Setup
+
 Cloud Deployment Procedure (e.g., Heroku)
 Differences Between Development and Production Environments
 
