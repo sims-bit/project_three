@@ -163,22 +163,31 @@ Version control:
 <details>
     <summary><strong>HTML Validation</strong></summary>
     <br>
-    <img src="" alt="">
+    <img src="readme_media/html_validation_1.png" alt="">
+     <img src="readme_media/html_validation_2.jpg.png" alt="">
     </details>
 
 <br>
 <details>
     <summary><strong>CSS Validation</strong></summary>
     <br>
+    <img src="readme_media/css_validation.jpg" alt="">
+    </details>
+
+<br>
+<details>
+    <summary><strong>Python Validation</strong></summary>
+    <br>
     <img src="" alt="">
     </details>
 
 <br>
 <details>
-    <summary><strong>HTML Validation</strong></summary>
+    <summary><strong>Lighthouse</strong></summary>
     <br>
-    <img src="" alt="">
+    <img src="readme_media/inital_lighthouse_report.jpg" alt="">
     </details>
+
 
 
 <br>
