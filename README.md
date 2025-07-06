@@ -55,10 +55,6 @@ Wireframes
 - The navigation is minimal and unobtrusive at the top. Recipe titles are given appropriate emphasis while author tags and timestamps provide secondary information in a subtle manner.
 - The design employs a neutral color palette with pops of teal/turquoise in the author tags, creating visual consistency. The typography appears clean and readable, supporting the content-first approach.
 
-
-<br>
-<strong>Accessibility Considerations</strong>
-
 <br>
 <strong>Responsive Design Features</strong>
 <br>
@@ -101,8 +97,6 @@ Future Feature Roadmap
     Enable users to search blog posts through the navbar
 
 4. Data Model
-
-
 
 <details>
     <summary><strong>Entity Relationship Diagram</strong></summary>
@@ -163,29 +157,33 @@ Version control:
 <details>
     <summary><strong>HTML Validation</strong></summary>
     <br>
-    <img src="readme_media/html_validation_1.png" alt="">
-     <img src="readme_media/html_validation_2.jpg.png" alt="">
+    <img src="/readme_media/html_validation_1.png" alt="">
+     <img src="/readme_media/html_validation_2.jpg.png" alt="">
     </details>
 
 <br>
 <details>
     <summary><strong>CSS Validation</strong></summary>
     <br>
-    <img src="readme_media/css_validation.jpg" alt="">
+    <img src="/readme_media/css_validation.jpg" alt="">
     </details>
 
 <br>
 <details>
     <summary><strong>Python Validation</strong></summary>
     <br>
-    <img src="" alt="">
+    <img src="/readme_media/python_validation_one.jpg" alt="">
+    <img src="/readme_media/python_validation_two.jpg" alt="">
+    <img src="/readme_media/python_validation_threejpg.jpg" alt="">
+    <img src="/readme_media/pylint_validation.jpg" alt="">
+    <img src="/readme_media/pylint_final_validation.jpg" alt="">
     </details>
 
 <br>
 <details>
     <summary><strong>Lighthouse</strong></summary>
     <br>
-    <img src="readme_media/inital_lighthouse_report.jpg" alt="">
+    <img src="/readme_media/inital_lighthouse_report.jpg" alt="">
     </details>
 
 
@@ -206,10 +204,6 @@ Version control:
 |Log Out Functionality| Confirms users can properly terminate their sessionsand return to logged-out state | Pass |
 |Post Display | Tests that blog posts or content items render correctly forusers | Pass |
 |Creating New Post | Validates that authenticated users can successfullycreate and publish new content | Pass |
-| | | |
-| | | |
-| | | |
-| | | |
 
 
     Cross-Browser Compatibility
@@ -217,7 +211,6 @@ Version control:
     
 User Testing Results
 Known Bugs and Fixes
-Outstanding Issues
 
 7. Deployment
 

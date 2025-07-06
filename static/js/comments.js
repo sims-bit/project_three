@@ -1,3 +1,6 @@
+/**
+ *From the code institute walkthrough project 
+ */
 const editButtons = document.getElementsByClassName("btn-edit");
 const commentText = document.getElementById("id_body");
 const commentForm = document.getElementById("commentForm");
